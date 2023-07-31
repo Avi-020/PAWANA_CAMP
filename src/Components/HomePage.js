@@ -11,6 +11,20 @@ import Modal from '@mui/material/Modal';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ContactsIcon from '@mui/icons-material/Contacts';
+import himg1 from "../images/HImg1.jpg"
+import himg2 from "../images/Himg2.jpeg"
+import himg3 from "../images/himg3.jpeg"
+import img1 from "../images/img1.jpg"
+import img2 from "../images/img2.jpg"
+import img3 from "../images/img3.jpg"
+import img4 from "../images/img4.jpg"
+import img5 from "../images/img5.jpg"
+import img6 from "../images/img6.jpeg"
+import img7 from "../images/img7.jpg"
+import img8 from "../images/img8.jpg"
+import img9 from "../images/img9.jpg"
+
+
 
 
 const style = {
@@ -57,13 +71,13 @@ function HomePage() {
               </a>
 
               <a href="https://www.instagram.com/sunshine_camping_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target='_blank'>
-              <InstagramIcon fontSize='large' style={{ marginLeft: "3vh" }} />
-</a>
+                <InstagramIcon fontSize='large' style={{ marginLeft: "3vh" }} />
+              </a>
 
-<a href="#contact">
+              <a href="#contact">
 
-              <ContactsIcon fontSize='large' id="contact"  style={{ marginLeft: "3vh" }} />
-</a>
+                <ContactsIcon fontSize='large' id="contact" style={{ marginLeft: "3vh" }} />
+              </a>
             </div>
 
             <div className="contact mt-3">
@@ -92,10 +106,10 @@ function HomePage() {
                 <a className="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Features</a>
+                <a className="nav-link" href="#Schedule">Schedule</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
+                <a className="nav-link" href="#Pakages">Pakages</a>
               </li>
 
             </ul>
@@ -150,7 +164,7 @@ function HomePage() {
           {/* <!-- Single item --> */}
           <div className="carousel-item active">
             <img
-              src="https://s3.ap-south-1.amazonaws.com/townscript-production/images/8eb2c690-f830-48de-ba88-e40adbe844f8.jpg"
+              src={himg1}
               className="d-block w-100"
               alt="Sunset Over the City"
             />
@@ -163,7 +177,7 @@ function HomePage() {
           {/* <!-- Single item --> */}
           <div className="carousel-item">
             <img
-              src="https://www.tripadvisortour.com/wp-content/uploads/2022/03/Pawna-Camping-6.jpeg"
+              src={himg2}
               className="d-block w-100"
               alt="Canyon at Nigh"
             />
@@ -176,7 +190,7 @@ function HomePage() {
           {/* <!-- Single item --> */}
           <div className="carousel-item">
             <img
-              src="https://roundtheworld.in/wp-content/uploads/2021/05/Pawna-lake-Camp-J-06.jpeg"
+              src={himg3}
               className="d-block w-100"
               alt="Cliff Above a Stormy Sea"
             />
@@ -226,7 +240,7 @@ function HomePage() {
 
         <h2 style={{ textAlign: "center" }} >SUNSHINE CAMPING</h2>
         <h4 style={{ textAlign: "center", color: "rgba(17, 14, 14, 0.36)" }}>SCHEDULE</h4>
-        <div className="schedule">
+        <div className="schedule" id='Schedule'>
 
           <img src={schedule} alt="schedule" style={{ width: "100%", height: "auto" }} />
 
@@ -238,8 +252,8 @@ function HomePage() {
 
 
 
-        <h3 className='mt-5' style={{ textAlign: "center" }}>Pakages</h3>
       </div>
+      <h3 className='mt-5' id='Pakages' style={{ textAlign: "center" }}>Pakages</h3>
 
 
 
@@ -262,7 +276,7 @@ function HomePage() {
                 <div className="col-lg-4">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2018/11/Pawna-lake-camping-i-display-picture.jpg"
+                      src={img1}
                       className="card-img-top"
                       alt="Waterfall"
                     />
@@ -280,7 +294,7 @@ function HomePage() {
                 <div className="col-lg-4 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2017/11/Pawnacamp-D-location-Aug-28-2022-08-14-AM-01.jpg"
+                      src={img2}
                       className="card-img-top"
                       alt="Sunset Over the Sea"
                     />
@@ -298,7 +312,7 @@ function HomePage() {
                 <div className="col-lg-4 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2022/09/Pawna-camp-C-Family-camp-01.jpg"
+                      src={img3}
                       className="card-img-top"
                       alt="Sunset over the Sea"
                     />
@@ -323,7 +337,7 @@ function HomePage() {
                 <div className="col-lg-4 col-md-12">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2018/11/Pawna-lake-camping-camp-F-09.jpg"
+                      src={img4}
                       className="card-img-top"
                       alt="Fissure in Sandstone"
                     />
@@ -341,7 +355,7 @@ function HomePage() {
                 <div className="col-lg-4 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://campatpawnalake.com/cdn/shop/products/WhatsAppImage2022-11-17at3.55.30PM.jpg?v=1668699011"
+                      src={img5}
                       className="card-img-top"
                       alt="Storm Clouds"
                     />
@@ -359,7 +373,7 @@ function HomePage() {
                 <div className="col-lg-4 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2017/09/WhatsApp-Image-2022-12-24-at-3.07.48-PM-683x455.jpeg"
+                      src={img6}
                       className="card-img-top"
                       alt="Hot Air Balloons"
                     />
@@ -384,7 +398,7 @@ function HomePage() {
                 <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                   <div className="card">
                     <img
-                      src="https://vl-prod-static.b-cdn.net/system/images/000/642/528/f2c0e59271be20889630cecf76cebe3b/original/80be8ad9-4ec3-44f6-bb86-788b6700ad22.jpg?1665474765"
+                      src={img7}
                       className="card-img-top"
                       alt="Peaks Against the Starry Sky"
                     />
@@ -402,7 +416,7 @@ function HomePage() {
                 <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://pawnalakecamps.in/wp-content/uploads/2023/01/IMG-20230104-WA0005.jpg"
+                      src={img8}
                       className="card-img-top"
                       alt="Bridge Over Water"
                     />
@@ -420,7 +434,7 @@ function HomePage() {
                 <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                   <div className="card">
                     <img
-                      src="https://pawnacamp.com/storage/2017/11/Pawna-lake-camping-camp-D-10-1.jpg"
+                      src={img9}
                       className="card-img-top"
                       alt="Purbeck Heritage Coast"
                     />
