@@ -66,7 +66,8 @@ function HomePage() {
 
             <div className="icons mt-3">
 
-              <a href="https://wa.me/8009451818" target='_blank'>
+              <a href="https://wa.me/8009451818" >
+              
                 <WhatsAppIcon fontSize='large' style={{ marginLeft: "0vh" }} />
               </a>
 
