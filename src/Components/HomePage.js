@@ -66,7 +66,7 @@ function HomePage() {
 
             <div className="icons mt-3">
 
-              <a href="https://wa.me/9067661322" target='_blank'>
+              <a href="https://wa.me/8009451818" target='_blank'>
                 <WhatsAppIcon fontSize='large' style={{ marginLeft: "0vh" }} />
               </a>
 
@@ -548,7 +548,7 @@ function HomePage() {
       {/* footer of whatsapp */}
       <div className='whatsapp' style={{ textAlign: "end" }}>
 
-        <a href="https://wa.me/9067661322">
+        <a href="https://wa.me/8009451818">
           <img alt="Chat on WhatsApp" src={WhatsappLOGO} style={{ width: "20vh", height: "20vh", position: "sticky" }} />
         </a>
       </div>
