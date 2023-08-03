@@ -67,7 +67,7 @@ function HomePage() {
             <div className="icons mt-3">
 
               <a href="https://wa.me/+918009451818" >
-              
+
                 <WhatsAppIcon fontSize='large' style={{ marginLeft: "0vh" }} />
               </a>
 
@@ -545,6 +545,18 @@ function HomePage() {
 
       </div>
 
+
+
+      {/* location  */}
+      <div className="location mx-3">
+
+<h3>Location📍</h3>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.7286839164362!2d73.495155!3d18.6312693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2a7eff1350eff%3A0x29a0839e39cb701f!2sThe%20Kattegat%20Kingdom!5e0!3m2!1sen!2sin!4v1691043282343!5m2!1sen!2sin" style={{ border: "0", width:"100%" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+
+      </div>
 
       {/* footer of whatsapp */}
       <div className='whatsapp' style={{ textAlign: "end" }}>
