@@ -86,8 +86,8 @@ function HomePage() {
 
             <div className="contact mt-3">
               <h6>Contact No.</h6>
-              <Typography>9067661322</Typography>
-              <Typography>9067661322</Typography>
+              <Typography> <LocalPhoneIcon style={{marginRight:"1vh"}}/>8009451818</Typography>
+              <Typography><LocalPhoneIcon style={{marginRight:"1vh"}} />8009451818</Typography>
 
 
 
