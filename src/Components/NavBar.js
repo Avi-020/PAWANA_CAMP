@@ -21,11 +21,10 @@ function NavBar() {
                 <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Schedule" 
-                >Schedule</a>
+                <a className="nav-link" href="/#Schedule" >Schedule</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Pakages">Pakages</a>
+                <a className="nav-link" href="/#Pakages">Pakages</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="Gallery">Gallery</a>
