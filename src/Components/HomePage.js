@@ -683,7 +683,7 @@ function HomePage() {
 
           >
             	&copy;Copyright&#8282;
-            <a className="text-white" href="https://mdbootstrap.com/"
+            <a className="text-white" href="#"
             >SunshineCamping.com</a>
           </div>
           {/* <!-- Copyright --> */}
