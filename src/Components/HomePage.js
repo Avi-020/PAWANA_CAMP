@@ -26,6 +26,7 @@ import img9 from "../images/img9.jpg"
 import FmdGoodIcon from '@mui/icons-material/FmdGood';import FacebookIcon from '@mui/icons-material/Facebook';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
+import NavBar from './NavBar';
 
 
 
@@ -98,28 +99,7 @@ function HomePage() {
 
 
       {/* navbar  */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#"> <b>SUNSHINE CAMPING</b> </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#Schedule">Schedule</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#Pakages">Pakages</a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </nav>
+     {/* <NavBar/> */}
 
       {/* main content  */}
       <div className="headings mt-5 ms-5">
