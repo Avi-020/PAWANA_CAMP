@@ -23,6 +23,9 @@ import img6 from "../images/img6.jpeg"
 import img7 from "../images/img7.jpg"
 import img8 from "../images/img8.jpg"
 import img9 from "../images/img9.jpg"
+import FmdGoodIcon from '@mui/icons-material/FmdGood';import FacebookIcon from '@mui/icons-material/Facebook';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 
@@ -550,10 +553,10 @@ function HomePage() {
       {/* location  */}
       <div className="location mx-3">
 
-<h3>Location📍</h3>
+        <h3>Location📍</h3>
 
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.7286839164362!2d73.495155!3d18.6312693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2a7eff1350eff%3A0x29a0839e39cb701f!2sThe%20Kattegat%20Kingdom!5e0!3m2!1sen!2sin!4v1691043282343!5m2!1sen!2sin" style={{ border: "0", width:"100%" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.7286839164362!2d73.495155!3d18.6312693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2a7eff1350eff%3A0x29a0839e39cb701f!2sThe%20Kattegat%20Kingdom!5e0!3m2!1sen!2sin!4v1691043282343!5m2!1sen!2sin" style={{ border: "0", width: "100%" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
 
       </div>
@@ -574,119 +577,122 @@ function HomePage() {
 
 
       {/* footer  */}
+
       {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
-      {/* <div className="container my-5">
+      <div className="container my-5">
+        {/* <!-- Footer --> */}
         <footer
-          className="text-center text-lg-start text-dark"
-          style={{ backgroundColor: "#ECEFF1" }}
+          className="text-center text-lg-start text-white"
+          style={{ backgroundColor: "#929fba" }}
         >
-          <section
-            className="d-flex justify-content-between p-4 text-white"
-            style={{ backgroundColor: "#21D192" }}
-          >
-            <div className="me-5">
-              <span>Get connected with us on social networks:</span>
-            </div>
-
-            <div>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-google"></i>
-              </a>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="" className="text-white me-4">
-                <i className="fab fa-github"></i>
-              </a>
-            </div>
-          </section>
-
-          <section className="">
-            <div className="container text-center text-md-start mt-5">
-              <div className="row mt-3">
-                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Company name</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
-                  />
+          {/* <!-- Grid container --> */}
+          <div className="container p-4 pb-0">
+            {/* <!-- Section: Links --> */}
+            <section className="">
+              {/* <!--Grid row--> */}
+              <div className="row">
+                {/* <!-- Grid column --> */}
+                <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 className="text-uppercase mb-4 font-weight-bold">
+                    Sunshine Camping
+                  </h6>
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                  &Prime;Welcome to Sunshine Camping 🌞🏕️ Your gateway to unforgettable riverside adventures&#33; 🌊 Embrace nature&prime;s embrace with our pristine camping spots&sbquo; surrounded by the soothing sounds of the river. ⛺ Discover the joy of outdoor living and create cherished memories with loved ones. 🌳🌄 Follow us for expert tips&sbquo; scenic views&sbquo; and exclusive offers. Let&prime;s embark on an enchanting journey together&#33;
                   </p>
                 </div>
+                {/* <!-- Grid column --> */}
 
-                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Products</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
 
-                  />
-                  <p>
-                    <a href="#!" className="text-dark">MDBootstrap</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">MDWordPress</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">BrandFlow</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">Bootstrap Angular</a>
-                  </p>
+         
+
+                <hr className="w-100 clearfix d-md-none" />
+
+                {/* <!-- Grid column --> */}
+                <hr className="w-100 clearfix d-md-none" />
+
+                {/* <!-- Grid column --> */}
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p><FmdGoodIcon/> Pawna Dam	&sbquo; Near Hilton	&sbquo; Kadav Maval	&sbquo; Pune 410 406</p>
+                  <p><EmailIcon/>SunshineCamping@gmail.com</p>
+                  <p><LocalPhoneIcon/> +91 8009451818</p>
+                  <p><LocalPhoneIcon/> +91 8009451818</p>
                 </div>
+                {/* <!-- Grid column --> */}
 
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Useful links</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
+                {/* <!-- Grid column --> */}
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" >
+                  <h6 className="text-uppercase mb-4 font-weight-bold">Follow us</h6>
 
-                  />
-                  <p>
-                    <a href="#!" className="text-dark">Your Account</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">Become an Affiliate</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">Shipping Rates</a>
-                  </p>
-                  <p>
-                    <a href="#!" className="text-dark">Help</a>
-                  </p>
-                </div>
+                  <div className="icons" style={{ display: "flex", flexDirection: "row",justifyContent:"center" }}>
 
-                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <h6 className="text-uppercase fw-bold">Contact</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }}
-                  />
-                  <p><i className="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                  <p><i className="fas fa-envelope mr-3"></i> info@example.com</p>
-                  <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                  <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+                    {/* <!-- Facebook --> */}
+                    <a
+                      className="btn btn-primary btn-floating m-1"
+                      style={{ backgroundColor: "#3b5998", borderRadius: "100%", width: "5vh", height: "5vh", display: "flex", position: "relative", justifyContent: "center", cursor: "pointer"}}
+                      href="#!"
+                      role="button"
+                    ><FacebookIcon style={{
+                      transform: "translateY(-50%)",
+                      position: "absolute",
+                      top: "50%",
+                    }} /></a>
+
+
+                    {/* <!-- Instagram --> */}
+                    <a
+                      className="btn btn-primary btn-floating m-1"
+                      href="https://www.instagram.com/sunshine_camping_/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target='_blank'
+                      style={{ backgroundColor: "#ac2bac",cursor:"pointer", borderRadius: "100%", width: "5vh", height: "5vh", display: "flex", position: "relative", justifyContent: "center", cursor: "pointer" }}
+
+                 
+                      role="button"
+                    ><InstagramIcon style={{
+                      transform: "translateY(-50%)",
+                      position: "absolute",
+                      top: "50%",
+                    }} /></a>
+
+
+                    {/* <!-- whatsapp --> */}
+                    <a
+                      className="btn btn-primary btn-floating m-1"
+                      style={{ backgroundColor: "#333333", borderRadius: "100%", width: "5vh", height: "5vh", display: "flex", position: "relative", justifyContent: "center", cursor: "pointer" }}
+
+                      href="https://wa.me/+918009451818" target='_blank'
+                      role="button"
+                    ><WhatsAppIcon style={{
+                      transform: "translateY(-50%)",
+                      position: "absolute",
+                      top: "50%",
+                    }} /></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+              {/* <!--Grid row--> */}
+            </section>
+            {/* <!-- Section: Links --> */}
+          </div>
+          {/* <!-- Grid container --> */}
 
+          {/* <!-- Copyright --> */}
+          <div
+            className="text-center p-3"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
 
+          >
+            	&copy;Copyright&#8282;
+            <a className="text-white" href="https://mdbootstrap.com/"
+            >SunshineCamping.com</a>
+          </div>
+          {/* <!-- Copyright --> */}
         </footer>
-      </div> */}
+        {/* <!-- Footer --> */}
+      </div>
       {/* <!-- End of .container --> */}
+
+
     </>
   )
 }
